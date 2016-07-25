@@ -20,7 +20,7 @@ extern const struct KNSemiModalOptionKeys {
     __unsafe_unretained NSString *disableCancel;     // boxed BOOL. default is NO.
 } KNSemiModalOptionKeys;
 
-NS_ENUM(NSUInteger, KNSemiModalTransitionStyle) {
+typedef NS_ENUM(NSUInteger, KNSemiModalTransitionStyle) {
 	KNSemiModalTransitionStyleSlideUp,
 	KNSemiModalTransitionStyleFadeInOut,
 	KNSemiModalTransitionStyleFadeIn,
